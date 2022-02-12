@@ -6,6 +6,21 @@
   margin-right: 50px;
 
 }
+.icon:hover{
+  color: #A2D2FF;
+}
+.text-data{
+  color: black !important;
+  font-size: 20px;
+}
+.three-dots i{
+  /* position: absolute; */
+  /* top: 300px; */
+  position: relative !important;
+  /* right: 0px !important; */
+  left: 250px;
+  bottom: 20px;
+}
 .left-side{
   color: grey;
 }
@@ -140,6 +155,9 @@
 }
 body{
   background-color: #fff8f3;
+}
+.c-c{
+  background-color: #fff8f3 !important;
 }
 .icon{
   color: #F5EEDC;
@@ -288,4 +306,68 @@ body{
   color: white;
   font-size: 14px;
   text-align: center;
+}
+.post-contain, .post-container{
+  width: 100%;
+  background: #54BAB9;
+  padding: 15px;
+  border-radius: 10px;
+  color: #fff8f3;
+  margin-bottom: 20px;
+}
+
+.profile-u img{
+  width: 45px;
+  margin-right: 10px;
+}
+.profile-u{
+  display: flex;
+  align-items: center;
+}
+.profile-u p{
+  margin-bottom: -5px;
+}
+.profile-u small{
+  font-size: 12px;
+
+}
+.profile-u i{
+  margin-left: 5px;
+}
+.post-search{
+  margin-left: 13px;
+  width: 280px !important;
+}
+.ic{
+  color: #DE5B7B !important;
+}
+.ic1{
+  color: #ECFAFB;
+}
+.ic2{
+  color: #FFD369;
+}
+.post-link a{
+  text-decoration: none;
+}
+.middle-link{
+  margin-right: 30px;
+}
+.profile-u span{
+  font-size: 12px;
+}
+.middle-post-images{
+  width: 100%;
+  margin: 10px 0 10px;
+}
+
+.like-btn{
+  width: 100px !important;
+  margin-right: 40px;
+}
+.comment-btn{
+  margin-right: 30px;
+}
+.post-container{
+  padding-bottom: 30px;
 }
